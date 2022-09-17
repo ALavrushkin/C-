@@ -14,7 +14,7 @@ char c='a';
 
 double a;
 double b;
-string s = Console.ReadLine(); // ввод данных
+string? s = Console.ReadLine(); // ввод данных
 a=Convert.ToDouble(s);
 
 b = a * a; // обработка данных
