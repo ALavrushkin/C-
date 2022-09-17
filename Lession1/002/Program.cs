@@ -1,9 +1,9 @@
 ﻿// С клавиатуры вводятся два вещественных числа. Проверять является ли одно из них квадратом второго (блок-схема)
-int a,b;
+double a,b;
 string? s=Console.ReadLine();
-a= Convert.ToInt32(s);
+a= Convert.ToDouble(s);
 s= Console.ReadLine();
-b= Convert.ToInt32(s);
+b= Convert.ToDouble(s);
 if (a*a==b)
 {
     System.Console.WriteLine("b является квадратом a");
