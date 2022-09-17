@@ -14,14 +14,16 @@ char c='a';
 
 double a;
 double b;
-string? s=Console.ReadLine(); // ввод данных
-a=Convert.ToDouble(s);
+string s = Console.ReadLine(); // ввод данных
+double a = Convert.ToDouble(s);
 
-b=a*a; // обработка данных
+b = a * a; // обработка данных
 
-// вывод данных
-System.Console.WriteLine("{0}^2={1}",a,b); // строка форматирования
+  // вывод данных
+System.Console.WriteLine("{0}^2={1}", a, b); // строка форматирования
 System.Console.WriteLine($"{a}^2={b}"); // строка интерполяции
+
+
 /*
 string? s; // объявили переменную
 s=Console.ReadLine(); // присвоили значение
